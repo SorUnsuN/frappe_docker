@@ -3,7 +3,7 @@ name: Build Frappe HR Image
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
       - "apps.json"
       - "images/custom/Containerfile"
